@@ -254,7 +254,7 @@ nav {
 
 
 .v-btn--is-elevated {
-   box-shadow: 0px 0px 0px -2px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%); 
+ box-shadow: 0px 0px 0px -2px RGB(0 0 0 / 20%), 0px 0px 0px 0px RGB(0 0 0 / 14%), 0px 0px 0px 0px RGB(0 0 0 / 12%); 
 }
 
 .btn {
@@ -514,14 +514,14 @@ $light-text: #abb0be;
 
   .lookforagentstitle {
     font-size: 48px;
-    color: rgb(12, 2, 2);
+    color: RGB(12, 2, 2);
     font-weight: 300;
   }
 
   .button.is-danger.is-inverted.is-outlined {
-    background-color: rgb(17, 16, 16);
-    border-color: rgb(17, 16, 16);
-    color: rgb(233, 221, 221);
+    background-color: RGB(17, 16, 16);
+    border-color: RGB(17, 16, 16);
+    color: RGB(233, 221, 221);
     -webkit-appearance: none;
     align-items: center;
     border: 1px solid transparent;
@@ -585,8 +585,8 @@ $light-text: #abb0be;
   }
 
   .login_container {
-    /*  background-color: rgb(0, 0, 0); */
-    color: rgb(250, 246, 246);
+    /*  background-color: RGB(0, 0, 0); */
+    color: RGB(250, 246, 246);
     border-radius: 1px;
     width: 100%;
     padding: 2px;
@@ -602,7 +602,7 @@ $light-text: #abb0be;
   }
 
   .shopping-cart-header {
-    border-color: rgb(15, 15, 14);
+    border-color: RGB(15, 15, 14);
   }
   .shopping-cart {
     top: -58px;
@@ -678,7 +678,7 @@ $light-text: #abb0be;
   }
 
   .button {
-    background: rgb(102, 48, 128);
+    background: RGB(102, 48, 128);
     color: white;
     text-align: center;
     padding: 12px;
@@ -887,10 +887,10 @@ $light-text: #abb0be;
   }
 
   .cart_container {
-    background-color: rgb(226, 235, 230);
+    background-color: RGB(226, 235, 230);
   }
   .shopping-cart-header {
-    border-color: rgb(15, 15, 14);
+    border-color: RGB(15, 15, 14);
   }
   .shopping-cart {
     position: absolute;
@@ -968,7 +968,7 @@ $light-text: #abb0be;
   }
 
   .button {
-    background: rgb(102, 48, 128);
+    background: RGB(102, 48, 128);
     color: white;
     text-align: center;
     padding: 12px;
@@ -992,7 +992,7 @@ $light-text: #abb0be;
   .button.is-danger.is-inverted.is-outlined {
     background-color: #ffffff;
     border-color: #ffffff;
-    color: rgb(233, 221, 221);
+    color: RGB(233, 221, 221);
   }
 
   .is-size-4 {
