@@ -51,9 +51,10 @@
                 <input type="checkbox" checked="checked" name="remember" />
                 {{ $t("Remember me") }}
               </label>
+              
   </form>
   <br/>
-  {{ $t("Don't have an account?") }}&nbsp;&nbsp;<router-link to="/Signup">{{ $t("Signup Here") }}</router-link>
+  {{ $t("Don't have an account?") }}&nbsp;&nbsp;<nuxt-link :to="localePath('/Signup')">{{ $t("Signup Here") }} </nuxt-link>
   </div>
 </template>
 
@@ -184,7 +185,11 @@ img.avatar {
 .container {
   padding: 16px;
 }
-
+.container {
+    max-width: 40% !important;
+    margin-left: 35% ;
+    background-color: #e8e8fd;
+}
 span.psw {
   float: right;
   padding-top: 16px;
@@ -205,6 +210,11 @@ span.psw {
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    max-width: 80% !important;
+    margin-left: 15% ;
+    background-color: #e8e8fd;
+}
   .login {
     width: 65%;
     margin-left: 17%;

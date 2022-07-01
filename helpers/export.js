@@ -1,4 +1,26 @@
 export const COUNTRIES = [
+    { "name": "Canada", "code": "CA" },
+    { "name": "United Kingdom", "code": "GB" },
+    { "name": "United States", "code": "US" },
+]
+export const PROVINCES = [
+	{ "name": "Alberta","code":"AB"},
+	{ "name": "British Columbia","code":"BC"},
+	{ "name": "Manitoba","code":"MB"},
+	{ "name": "New Brunswick","code":"NB"},
+	{ "name": "Newfoundland and Labrador","code":"NL"},
+	{ "name": "Nova Scotia","code":"NS"},
+	{ "name": "Northwest Territories","code":"NT"},
+	{ "name": "Nunavut","code":"NU"},
+	{ "name": "Ontario","code":"ON"},
+	{ "name": "Prince Edward Island","code":"PE"},
+	{ "name": "Quebec","code":"QC"},
+	{ "name": "Saskatchewan","code":"SK"},
+	{ "name": "Yukon","code":"YT"},
+	]
+
+
+/*export const COUNTRIES = [
     { "name": "Afghanistan", "code": "AF" },
     { "name": "Aland Islands", "code": "AX" },
     { "name": "Albania", "code": "AL" },
@@ -249,7 +271,7 @@ export const COUNTRIES = [
     { "name": "Yemen", "code": "YE" },
     { "name": "Zambia", "code": "ZM" },
     { "name": "Zimbabwe", "code": "ZW" }
-]
+]*/
 
 export const GENDERS = [
     { "name": "Male", "code": "m" },

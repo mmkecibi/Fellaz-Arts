@@ -114,24 +114,31 @@
             </div>
           </div>
 
+
           <div class="col-md-6">
             <div class="form-group">
-              <label>{{ $t("Province") }}</label>
-              <input
+              <label>{{ $t("Province") }}</label><br />
+              <div class="">
+                <select
+                  class="form-control minimal"
                 v-model.trim="form.provaince"
                 @blur="$v.form.provaince.$touch()"
-                @change="emitFormData"
-                class="form-control"
-                type="text"
-                placeholder="provaince"
-              />
-              <div v-if="$v.form.provaince.$error" class="form-error">
-                <span v-if="!$v.form.provaince.required" class="help is-danger">{{
-                  $t("State is required")
-                }}</span>
-                <span v-if="!$v.form.provaince.minLength" class="help is-danger">{{
-                  $t("State minimum length is 18 characters")
-                }}</span>
+                  @change="emitFormData"
+                >
+                  <option value="default">{{ $t("Province") }}</option>
+                  <option
+                    v-for="prov in provinces"
+                    :key="prov.code"
+                    :value="prov.code"
+                  >
+                    {{ prov.name }}
+                  </option>
+                </select>
+              </div>
+              <!-- TODO: -->
+              <!-- Consider to create custom validator to check if country is provided and has value of "default" -->
+              <div v-if="$v.form.provaince.$dirty && !isValidCountry" class="form-error">
+                <span class="help is-danger">{{ $t("State is required") }}!</span>
               </div>
             </div>
           </div>
@@ -168,13 +175,13 @@
         
       </div>
       <button class="pay-with-stripe" @click="goToDisplayCartStep">{{ $t("Previous") }}</button>
-      <button class="pay-with-stripe shipping_next " @click="goToCheckOutStep"  :disabled="!canbeactive">{{ $t("Next") }}</button>
+      <button class="pay-with-stripe shipping_next " @click="goTototalByProvinceStep"  :disabled="!canbeactive">{{ $t("Next") }}</button>
       <div class="clearfix"></div>
     </div>
 </template>
 
 <script>
-import { COUNTRIES } from "@/helpers/export";
+import { COUNTRIES,PROVINCES } from "@/helpers/export";
 import { required,email,minLength} from "vuelidate/lib/validators";
 import { mapState, mapGetters } from "vuex";
 
@@ -191,6 +198,7 @@ export default {
   data() {
     return {
       countries: COUNTRIES,
+      provinces:PROVINCES,
       form: {
         clientid:null,
         name:null,
@@ -198,7 +206,7 @@ export default {
         city: null,
         address: null,
         cp: null,
-        provaince: "",
+        provaince: "default",
         country: "default",
       },
       canbeactive:false,
@@ -233,10 +241,13 @@ export default {
   },
   computed: {
     isValid() {
-      return !this.$v.$invalid && this.form.category !== "default";
+      return !this.$v.$invalid && this.form.category !== "default"&& this.form.provaince !== "default";
     },
     isValidCountry() {
       return this.form.country !== "default";
+    },
+    isValidProvaince() {
+      return this.form.provaince !== "default";
     },
     ...mapGetters({ 
               cartCount: 'cartstore/cartCount',
@@ -259,15 +270,19 @@ export default {
   async  goToDisplayCartStep() {
          this.$store.commit("cartstore/updateCartUI", "idle");
     },
-  async  goToCheckOutStep() {
+  async  goTototalByProvinceStep() {
         this.form.clientid  = this.user.id
         return await  this.$store
             .dispatch("orderstore/createshipping",this.form)
             .then((result) => {
-                 this.$store.commit("cartstore/updateCartUI", "payementtype");
+              this.$store.dispatch("orderstore/saveshippingprovince",this.form.provaince);
+              this.$store.commit("cartstore/updateCartUI", "totalbyprovince");
             })
             .catch((error) => { this.$toasted.error(error, { duration: 3000 })});
     },
+
+
+
   async  getshippingAddressByClientId() {
         return await  this.$store
             .dispatch("orderstore/fetchShippingAddressByClientId",this.user.id)
@@ -289,6 +304,9 @@ export default {
                                     this.form.cp = result.cp;
                                     this.form.provaince = result.provaince;
                                     this.form.country = result.country;
+                                    this.canbeactive = true;
+                                    this.$store
+                  this.$store.dispatch("orderstore/saveshippingprovince",result.provaince);
             })
             .catch((error) => { console.log(error, { duration: 3000 })});
   },

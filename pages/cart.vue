@@ -10,6 +10,10 @@
       <h1 class="center">{{ $t("Shipping") }}</h1>
       <app-cart-shipping />
     </section>
+    <section v-else-if="cartUIStatus === 'totalbyprovince'" >
+      <h1 class="center">{{ $t("Total") }}</h1>
+      <app-total-cart />
+    </section>
     <section v-else-if="cartUIStatus === 'payementtype'" class="loader">
       <app-cart-payement-type />
     </section>
@@ -34,6 +38,7 @@ import AppLoader from "~/components/AppLoader.vue";
 import AppCartSteps from "~/components/AppCartSteps.vue";
 import AppSalesBoxes from "~/components/AppSalesBoxes.vue";
 import AppCartDisplay from "~/components/AppCartDisplay.vue";
+import AppTotalCart from "~/components/AppTotalCart.vue";
 import AppCartShipping from "~/components/AppCartShipping.vue";
 import AppCartPayementType from "~/components/AppCartPayementType.vue";
 import AppCartCheckOut from "~/components/AppCartCheckOut.vue";
@@ -43,6 +48,7 @@ export default {
   components: {
     AppCartDisplay,
     AppCartShipping,
+    AppTotalCart,
     AppSalesBoxes,
     AppCartSteps,
     AppLoader,

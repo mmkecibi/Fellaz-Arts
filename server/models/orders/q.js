@@ -215,7 +215,7 @@ class Orderquery {
 
     getorderlistbyuserid = async clientid => {
 
-        var params = {clientid};
+       var params = {clientid};
        let qry = " SELECT od.id, "
                     qry += " od.product_order_id, "
                     qry += " od.product_order_name, "
@@ -255,7 +255,6 @@ class Orderquery {
          .fetch()
          .then(function (Taxes) {
              if (Taxes) {
-                console.log( ' Taxes.toJSON() ', Taxes.toJSON())
                  return  Taxes.toJSON();
              }
              return  null;
@@ -264,6 +263,19 @@ class Orderquery {
              return err;
          })
       };
+      
+      getTaxeByProvince = async shippingprovince => {
+         var params = {shippingprovince};
+         let qry = " SELECT  * FROM ecombusiness.taxes where provaince = :shippingprovince "
+         return  await   db.knex.raw(qry,params).then(function (taxes) {
+                     if (taxes) {
+                         return  taxes[0];
+                     }
+                     })
+                     .catch(function (err) {
+                         return err;
+                     })
+    };
 
       getTaxeById = async id => {
    

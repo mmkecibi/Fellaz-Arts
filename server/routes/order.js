@@ -17,6 +17,7 @@ router.get('/getorderswithitsusers',  OrdersCtrl.getorderswithitsusers);
 router.get('/get-order-list-by-user-id/:clientid',  OrdersCtrl.getorderlistbyuserid);   
 router.get('/getTaxes',  OrdersCtrl.getTaxes);
 router.get('/getTaxeById/:id',  OrdersCtrl.getTaxeById);
+router.get('/getTaxeByProvince/:shippingprovince',  OrdersCtrl.getTaxeByProvince);
 
 router.get('/deleteTaxe/:id',  OrdersCtrl.deleteTaxe);
 

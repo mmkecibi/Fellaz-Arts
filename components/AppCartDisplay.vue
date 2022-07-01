@@ -26,12 +26,8 @@
           </td>
           <td >
             <strong class="price">{{ calculateproductprice(item.productPrice , item.productDiscount , (item.size == null ? 0 : item.size.size_extraprice) , (item.weight == null ? 0 : item.weight.weight_extraprice) , item.color_extraprice, 1 )  | dollar }}</strong>
-
           </td>
           <td >
-
-
-
           <div class="quantity">
             <button class="update-num" @click="removeOneFromCart(item)">-</button>
             <strong class="quantity-value-adjust"> {{ item.productQuantity }}</strong>
@@ -49,31 +45,9 @@
         </tr>
       </table>
       <br/>
-      <section class="payment">      </section>
-        <div class="total">
-          <div class="caption">
-            <p class="golden-title ">
-               {{ $t("Subtotal") }} :
-            </p>
-
-            <div v-for="item in taxes" :key="item.id">
-            <p class="golden-title ">{{item.name}}</p>
-            </div>
-            <p  class="golden-title ">{{ $t("Shipping") }}:</p>
-            <p class="golden-title ">{{ $t("Total") }}</p>
-          </div>
-          <div class="num">
-          <p  class="golden">{{ cartTotal | dollar }}</p>
-             <div v-for="item in taxes" :key="item.id">
-            <p class="golden">{{(item.value / 100).toPrecision(1)}}</p>
-            </div>
-
-            <p  class="golden">{{ $t("Free Shipping") }}</p>
-           <p class="golden">{{ cartTotalTaxe | dollar }} </p> 
-          </div>
-        </div>              
-              <button class="pay-with-stripe" @click="goToShippingStep">{{ $t("Next") }}</button>
-
+      <section class="payment">     
+          <button class="pay-with-stripe" @click="goToShippingStep">{{ $t("Next") }}</button> 
+      </section>
     </section>
     <section v-else class="center">
       <p>{{ $t("Your cart is empty, fill it up") }}!</p>
@@ -103,34 +77,6 @@ export default {
     AppCard
   },
   computed: {
-    cartTotal(){
-      let total = 0;
-
-      this.l_cart.forEach(item => {
-        let size_extraprice   = (item.size == null ? 0 : item.size.size_extraprice);
-        let weight_extraprice = (item.weight == null ? 0 : item.weight.weight_extraprice);
-
-        total +=  this.calculateproductprice(item.productPrice , item.productDiscount , size_extraprice , weight_extraprice , item.color_extraprice, item.productQuantity )
-      //  total += (item.productQuantity * (item.productPrice - item.productDiscount))
-      });
-      this.$store.commit("orderstore/setcartTotal", total);
-
-      let taxess = this.$store.state.orderstore.taxes;
-
-      let totaltx = 0;
-            
-      taxess.forEach(tx => {
-        totaltx += (tx.value / 100) * total
-      });
-      let totaltxes = total + totaltx;
-      this.cartTotalTaxe = totaltxes
-      this.$store.commit("orderstore/setcartTotalTaxe", totaltxes);
-
-      return total;
-    },    
-    taxes() {
-      return this.$store.state.orderstore.taxes;
-    },
             ...mapGetters({ 
                       cartCount: 'cartstore/cartCount',                    
                       user: "auth/authUser",
@@ -146,13 +92,6 @@ export default {
                   this.l_cart = cart;
             })
             .catch((error) => { console.log(error)});
-    },
-  async fetchgetTaxes(){
-        return await  this.$store
-            .dispatch("orderstore/fetchgetTaxes")
-            .then((result) => {
-            })
-            .catch((error) => { this.$toasted.error(error, { duration: 3000 })});
     },
     calculateproductprice(productprice , discount , size_extraprice , weight_extraprice , color_extraprice, quantity){ 
           return  (productprice - discount + size_extraprice + weight_extraprice + color_extraprice)* quantity; 
@@ -180,9 +119,9 @@ export default {
     goToShippingStep() {
       this.$store.commit("cartstore/updateCartUI", "shipping");
     },
+   
   },
     created(){
-         this.fetchgetTaxes();
          this.fetchCartWithProductPhotosByClientId();
   },
 };

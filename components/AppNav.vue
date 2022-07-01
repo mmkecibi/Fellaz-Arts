@@ -1,25 +1,6 @@
 <template> 
     <header class="header">
-             <span style="font-size: 48px;color: #4e28d9; margin-bottom:8%">3D ARTS</span>
-        <div>
 
-          <nuxt-link class="carttotal"  :to="localePath('/cart')"><div  v-if="cartCount > 0"></div>  {{ cartCount }}</nuxt-link>
-
-               <a v-if="!isAuth" href="#" @click="signout">
-              <span class="menu-text">{{ $t("Hello") }}!</span>
-              </a>
-               <a v-if="!isAuth" href="/Signin">
-              <span class="menu-text">{{ $t("Login") }}</span>
-              </a>
-
-               <a v-if="isAuth" href="#" @click="signout">
-              <span class="menu-text">{{ $t("Hello") }}, {{ user.firstname }}!</span>
-              </a>
-
-               <a v-if="isAuth" href="#" @click="signout">
-              <span class="menu-text">{{ $t("Logout") }}</span>
-              </a>
-    </div>
     <nav>
       <!-- Header Inner -->
       <div class="header-inner">
@@ -47,11 +28,13 @@
                                         <v-list-item><nuxt-link :to="localePath('/ManageProduct/Order')">{{$t('Order')}}</nuxt-link> </v-list-item>
                                         <v-list-item><nuxt-link :to="localePath('/ManageClient/Client')">{{$t('Client')}}</nuxt-link> </v-list-item>
                                         <v-list-item><nuxt-link :to="localePath('/ManageProduct/Taxe')">{{$t('Taxe')}}</nuxt-link> </v-list-item>
-                                        <v-list-item><nuxt-link :to="localePath('/calevents')">{{$t('Taxe')}}</nuxt-link> </v-list-item>                                        
-                                      </v-list>
+                                        <v-list-item><nuxt-link :to="localePath('/calevents')">{{$t('Taxe')}}</nuxt-link> </v-list-item>  
+                                     </v-list>
+
                                     </v-menu>
                       </span>
               </a>
+
               <nuxt-link :to="localePath('/')"><span class="menu-text">{{ $t("Home") }}</span></nuxt-link> 
               <nuxt-link :to="localePath('/all')"><span class="menu-text">{{ $t("Products") }}</span></nuxt-link> 
               <nuxt-link
@@ -62,6 +45,14 @@
                 <span v-if="locale.code === 'fr'" class="menu-text">{{ $t("French") }}</span>
                 <span v-if="locale.code === 'ar'" class="menu-text">{{ $t("Arabe") }}</span>
               </nuxt-link>
+
+              <div  class="full-page-takeover-header-button">
+
+                <nuxt-link v-if="user" :to="localePath(`/ManageClient/Client/${user.id}`)" class="button is-danger is-medium is-inverted is-outlined profilbtn">
+                  Your Profile
+                </nuxt-link>
+                
+              </div>
 
               <a href="javascript:void(0);" class="icon" @click="navbarmenu()">
                 <i class="fa fa-bars"></i>
@@ -170,6 +161,7 @@ this.switchLocalePath(code)
 </script>
 
 <style lang="scss" scoped>
+
 header {
   display: flex;
   justify-content: center;
@@ -208,20 +200,7 @@ nav {
   }
 }
 
-.carttotal {
-  position: absolute;
-  border-radius: 1000px;
-  background: #4e28d9;
-  color: white;
-  font-size: 10px;
-  right: 58%;
-  width: 4%;
-  text-align: center;
-  height: 25px;
-  font-size: 10px;
-  padding: 6px 5px;
-  font-weight: bold;
-}
+
 @media screen and (max-width: 1524px) {
   h1 {
     margin: 0;
@@ -518,8 +497,13 @@ $light-text: #abb0be;
     font-weight: 300;
   }
 
+.button.is-danger.is-medium.is-inverted.is-outlined.profilbtn{
+  width:100%;
+}
+
+
   .button.is-danger.is-inverted.is-outlined {
-    background-color: RGB(17, 16, 16);
+   /* background-color: RGB(17, 16, 16);
     border-color: RGB(17, 16, 16);
     color: RGB(233, 221, 221);
     -webkit-appearance: none;
@@ -529,7 +513,8 @@ $light-text: #abb0be;
     box-shadow: none;
     display: inline-flex;
     font-size: 1rem;
-    height: 2.25em;
+    height: 2.25em;*/
+  
     justify-content: flex-start;
     line-height: 1.5;
     padding-bottom: calc(0.375em - 1px);
@@ -990,7 +975,7 @@ $light-text: #abb0be;
   }
 
   .button.is-danger.is-inverted.is-outlined {
-    background-color: #ffffff;
+   /* background-color: #ffffff;*/
     border-color: #ffffff;
     color: RGB(233, 221, 221);
   }
@@ -1024,10 +1009,6 @@ $light-text: #abb0be;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: #4e28d9;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
@@ -1106,14 +1087,5 @@ $light-text: #abb0be;
     font-size: 18px;
     margin-right: 18px;
   }
-}
-
-
-
-
-
-
-
-
-
+  }
 </style>

@@ -1,5 +1,6 @@
 <template>
   <div dir="auto">
+      <navbar />
     <app-nav />
     <main>
       <nuxt />
@@ -11,11 +12,13 @@
 <script>
 import AppFooter from "~/components/AppFooter.vue";
 import AppNav from "~/components/AppNav.vue";
+import Navbar from '~/components/shared/Navbar'
 
 export default {
   components: {
     AppFooter,
-    AppNav
+    AppNav,
+    Navbar
   }
 };
 </script>
@@ -53,7 +56,7 @@ main {
   main {
     padding: 40px;
     width: 80vw;
-    margin-left: 7vw;
+    margin-left: 9.5vw;
   }
 }
 </style>

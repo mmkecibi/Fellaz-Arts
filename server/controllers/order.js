@@ -29,6 +29,12 @@ exports.getTaxes = async (req, res) => {
         .then((result) => {return res.json(result)})
         .catch(error =>   {return  res.status(422).send(error) })
       }      
+exports.getTaxeByProvince = async (req, res) => {
+        const shippingprovince = req.params.shippingprovince;
+         await orderq.getTaxeByProvince(shippingprovince)
+         .then((result) => {return res.json(result)})
+         .catch(error =>   {return  res.status(422).send(error) })
+      } 
 
 exports.deleteTaxe = async (req, res) => {
         const id = req.params.id;

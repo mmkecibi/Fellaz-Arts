@@ -8,16 +8,20 @@
       <h2 :class="{ active: cartUIStatus === 'shipping' && cartCount > 0 }">02</h2>
       <h4 class="steptitle">{{$t("Shipping")}}</h4>
     </div>
+    <div class="TotalByPtotalbyprovincerovince">
+      <h2 :class="{ active: cartUIStatus === 'totalbyprovince' && cartCount > 0 }">03</h2>
+      <h4 class="steptitle">{{$t("Total")}}</h4>
+    </div>
     <div class="payementtype  center">
-      <h2 :class="{ active: cartUIStatus === 'payementtype' && cartCount > 0 }">03</h2>
+      <h2 :class="{ active: cartUIStatus === 'payementtype' && cartCount > 0 }">04</h2>
       <h4 class="steptitle">{{$t("Payment Type")}}</h4>
     </div>
     <div class="checkout">
-      <h2 :class="{ active: cartUIStatus === 'checkout' && cartCount > 0 }">04</h2>
+      <h2 :class="{ active: cartUIStatus === 'checkout' && cartCount > 0 }">05</h2>
       <h4 class="steptitle">{{$t("Check out")}}</h4>
     </div>
     <div class="order">
-      <h2 :class="{ active: cartUIStatus === 'success' }">05</h2>
+      <h2 :class="{ active: cartUIStatus === 'success' }">06</h2>
       <h4 class="steptitle">{{$t("Order Complete")}}</h4>
     </div>
   </section>
@@ -40,12 +44,12 @@ export default {
 <style lang="scss" scoped>
 section {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 100px;
   grid-row-gap: 0px;
   text-align: center;
-  width: 80%;
+  width: 88%;
   margin: 10px auto 0;
   div {
     display: flex;
@@ -55,11 +59,11 @@ section {
 }
 
 h2 {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   border-radius: 10000px;
   border: 1px solid #4e28d9;
-  padding-top: 15px;
+  padding-top: 12px;
   color: #4e28d9;
   &.active {
     background: #4e28d9;

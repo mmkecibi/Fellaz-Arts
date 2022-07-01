@@ -1,20 +1,5 @@
 <template>
   <div>
-         <!--     < class="hero-slider" v-for="item in sliders" :key="item.id" >
-        <div class="single-slider"     :style="{ backgroundImage: 'url(\'' + item.photo[0] + '\')' }">   -->
-
- <!-- 
-  <v-carousel hide-delimiters>
-    <v-carousel-item
-      v-for="(item,i) in sliders"
-      :key="i"
-      :src="item.photo[0]"
-    ></v-carousel-item>
-  </v-carousel>
--->
-
-
-
     <!-- Slider Area -->
     <section class="slider">
   <div class="hero-slider  " >
@@ -102,6 +87,9 @@
     </section>
     <!--/ End Slider Area -->
 
+
+
+
     <app-textlockup />
     <app-sales-boxes />
     <app-textlockup>
@@ -114,10 +102,17 @@
       <template v-slot:details>{{ $t("All accessories") }}</template>
     </app-textlockup>
     <app-featured-products />
+
+
+
+
+
   </div>
 </template>
 
 <script>
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import AppTextlockup from "~/components/AppTextlockup.vue";
 import AppSalesBoxes from "~/components/AppSalesBoxes.vue";
 import AppFeaturedProducts from "~/components/AppFeaturedProducts.vue";
@@ -146,8 +141,6 @@ export default {
   },
 
   mounted: function () {
-
-
     /* =====================================
 Template Name: 	Mediplus.
 Author Name: Naimur Rahman
@@ -447,20 +440,9 @@ Version:	1.1
     $(".preloader").addClass("preloader-deactivate");
   },
 };
-
-
 </script>
 
 <style scoped lang="scss">
-.test {
-  margin: 3vh;
-}
-
-main {
-  width: 75vw;
-}
-
-
 .slider .owl-carousel .owl-nav div {
   height: 50px;
   width: 50px;
@@ -498,6 +480,16 @@ main {
   user-select: none;
 }
 
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 .card-image:hover {
   cursor: pointer;
@@ -2300,4 +2292,3 @@ Version:	1.1
 }
 /*************** */
 </style>
-

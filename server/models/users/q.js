@@ -229,7 +229,9 @@ agentavailibilitieszipcoderadusfinderAllIds = async (latitude,longitude,distance
         })
    };   
   inserttUser = async (db,registerData ) => {
-    console.log('   registerData    : ', registerData.captures);
+    console.log( "  registerData  ", registerData)
+    if(registerData.captures == null || registerData.captures == undefined)
+            registerData.captures = "";
     if(registerData.captures.length <= 2)
             registerData.captures = null;
         const salt = await bcrypt.genSalt(10);
@@ -245,7 +247,6 @@ agentavailibilitieszipcoderadusfinderAllIds = async (latitude,longitude,distance
                           email:registerData.email,
                           gender:registerData.gender,
                            photo: registerData.captures,
-                          bio: registerData.dob,
                           CreatedBy: registerData.username
                 })
                 .returning('id')
@@ -279,14 +280,14 @@ agentavailibilitieszipcoderadusfinderAllIds = async (latitude,longitude,distance
      };
 
      updateUserinfo = async (userData) => {
-
+        if(userData.captures == null || userData.captures == undefined)
+             userData.captures = "";
              await db.knex('users').where({id: userData.id })
                             .update({
                                     username:  userData.username ,
                                     lastname:  userData.lastname ,
                                     firstname:  userData.firstname,
                                     photo: userData.captures,
-                                    bio: userData.dob,
                                     phone:  userData.phone ,
                                     email:  userData.email ,
                                     gender:  userData.gender ,

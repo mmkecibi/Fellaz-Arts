@@ -11,7 +11,8 @@ export const state = () => ({
     cartTotal:null,
     cartTotalTax:null,
     paymenttype:null,
-    ordernumber:null
+    ordernumber:null,
+    shippingprovince:null
   });
   
   export const getters = {
@@ -27,6 +28,9 @@ export const state = () => ({
     getordernumber: state => {
       return state.ordernumber;
     },
+    getshippingprovince: state => {
+      return state.shippingprovince;  
+    }
   };  
   
   export const actions = {
@@ -84,6 +88,13 @@ export const state = () => ({
           commit('settaxe', taxe) 
         })
     },
+    async fetchTaxesByProvince({commit, state},shippingprovince) {
+      return await this.$axios.$get(`/api/v1/order/getTaxeByProvince/${shippingprovince}`)
+        .then(taxes => {
+          commit('settaxes', taxes) 
+          return taxes;
+        })
+    },
     async deleteTaxe({commit, state}, id) {
       return await this.$axios.$get(`/api/v1/order/deleteTaxe/${id}`)
         .then(result => {
@@ -106,6 +117,9 @@ export const state = () => ({
       .catch(error => {return error})
      },
 
+     saveshippingprovince({commit}, prov){
+       commit('setshippingprovince', prov)
+     },
 
     async fetchgetOrderUsersByPage({commit, state}) {
         return await this.$axios.$get(`/api/v1/order/getorderswithitsusers`)
@@ -211,7 +225,9 @@ export const state = () => ({
         state.order = result ;
       },
       settaxes(state, result) { 
-        state.taxes =  result.filter(el => el.provaince == 'Quebec') ;
+        //state.taxes =  result.filter(el => el.provaince == 'Quebec');
+        console.log("   settaxes  485818   ", result)
+        state.taxes = result;
       },
       settaxe(state, result) { 
         state.taxe = result ;
@@ -230,6 +246,9 @@ export const state = () => ({
       },
       setordernumber(state, result) { 
         state.ordernumber = result ;
+      },
+      setshippingprovince(state, result) { 
+        state.shippingprovince = result ;
       },
     /***************************************** */
   };

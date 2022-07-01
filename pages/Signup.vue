@@ -133,38 +133,6 @@
 
           <div class="col-md-6">
             <div class="form-group">
-              <label>{{ $t("Brith date") }} *</label>
-              <input
-                v-model.trim="form.dob"
-                @blur="$v.form.dob.$touch()"
-                @change="emitFormData"
-                @input="
-                  ($event) => {
-                    ValidateDOBinsert('dob'), this.emitFormData(), (menubod = false);
-                  }
-                "
-                class="form-control"
-                type="date"
-                placeholder=""
-              />
-              <div v-if="$v.form.dob.$error" class="form-error">
-                <span v-if="!$v.form.dob.required" class="help is-danger">{{
-                  $t("Brith date is required")
-                }}</span>
-                <span v-if="!$v.form.lastname.minLength" class="help is-danger">{{
-                  $t("Brith date minimum length is 6 characters")
-                }}</span>
-              </div>
-              <div v-if="!isDateTimeValid" class="form-error">
-                <span class="help is-danger">{{
-                  $t("Please enter a valid BirthDate")
-                }}</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="form-group">
               <label>{{ $t("Password") }} *</label>
               <input
                 v-model.trim="form.password"
@@ -404,7 +372,6 @@ export default {
                         username: null,
                         firstname: null,
                         lastname: null,
-                        dob: new Date().toISOString().substr(0, 10),
                         gender: "default",
                         email: null,
                         phone: null,
@@ -540,7 +507,7 @@ export default {
           !this.emailexistsv,
       });*/
 
-      this.canProceed = this.isValid && this.isValidGender && this.ValidateDOBinsert("dob") &&  !this.usernameexistsv && !this.emailexistsv
+      this.canProceed = this.isValid && this.isValidGender  &&  !this.usernameexistsv && !this.emailexistsv
 
     },
   },
@@ -558,9 +525,6 @@ export default {
                             email: {
                               required,
                               emailValidator: email,
-                            },
-                            dob: {
-                              required,
                             },
                             gender: {
                               required,

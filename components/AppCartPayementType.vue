@@ -23,7 +23,7 @@
             <div class="row">
             <div class="col-md-4">
                 <div class="form-group">
-                      <button class="pay-with-stripe" @click="goToShippingCartStep">{{$t("Previous")}}</button>
+                      <button class="pay-with-stripe" @click="goTototalByProvinceStep">{{$t("Previous")}}</button>
                 </div>
             </div>
 
@@ -77,9 +77,9 @@ export default {
     };
   },
   methods: {    
-     async  goToShippingCartStep() {
+     async  goTototalByProvinceStep() {
            this.$store.commit("orderstore/setpaymenttype", this.paymenttype);
-           this.$store.commit("cartstore/updateCartUI", "shipping");
+            this.$store.commit("cartstore/updateCartUI", "totalbyprovince");;
     },
       async  goToCheckOutStep() {
          this.$store.commit("orderstore/setpaymenttype", this.paymenttype);
