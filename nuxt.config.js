@@ -77,7 +77,7 @@ css: [
   '@/assets/style.css',
   '@/assets/css/alga.css',
   '@/assets/css/alga.min.css',
-
+  '@/assets/css/normalize.css',
   '@/assets/css/alga-animate.css',
   '@/assets/css/alga-animate.min.css',
 

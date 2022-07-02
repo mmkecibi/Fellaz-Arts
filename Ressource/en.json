@@ -348,5 +348,9 @@
     "eventOrder":"Order",
     "eventnormal":"Normal",
     "eventname":"Event name",
-    "eventtask":"Task"
+    "eventtask":"Task",
+
+    "Years of Experience":"Years of Experience",
+    "Who We Are":"Who We Are",
+    "Contact Now":"Contact Now"
   }

@@ -1,5 +1,20 @@
 <template>
   <div>
+      <!-- Preloader   open annimation-->
+    <div class="preloader">
+      <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+
+        <div class="indicator">
+          <svg width="16px" height="12px">
+            <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+            <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+      <!-- Preloader   open annimation-->
     <!-- Slider Area -->
     <section class="slider">
   <div class="hero-slider  " >
@@ -88,20 +103,958 @@
     <!--/ End Slider Area -->
 
 
+ <!-- Start Schedule Area -->
+    <section class="schedule">
+      <div class="container">
+        <div class="schedule-inner">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule first">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont icofont-cop"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Lorem Amet</span>
+                    <h4>Emergency Cases</h4>
+                    <p>
+                      We quickly respond to changing resource requirements and employ
+                      state-of-the-art systems and technologies so we can easily adapt to
+                      any security situation.
+                    </p>
+
+                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule middle">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-prescription"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Fusce Porttitor</span>
+                    <h4>Agents Timetable</h4>
+                    <p>
+                      We quickly respond to changing resource requirements and employ
+                      state-of-the-art systems and technologies so we can easily adapt to
+                      any security situation.
+                    </p>
+
+                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12">
+              <!-- single-schedule -->
+              <div class="single-schedule last">
+                <div class="inner">
+                  <div class="icon">
+                    <i class="icofont-ui-clock"></i>
+                  </div>
+                  <div class="single-content">
+                    <span>Donec luctus</span>
+                    <h4>Opening Hours</h4>
+                    <ul class="time-sidual">
+                      <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
+                      <li class="day">Saturday <span>9.00-18.30</span></li>
+                      <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                      <li class="day">Saturday <span>9.00-18.30</span></li>
+                      <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                    </ul>
+                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/End Start schedule Area -->
+
+    <!-- Start Feautes -->
+    <section class="Feautes section">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Are Always Ready to Help You</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                We quickly respond to changing resource requirements and employ
+                state-of-the-art systems and technologies so we can easily adapt to any
+                security situation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <div class="col-lg-4 col-12">
+            <!-- Start Single features -->
+            <div class="single-features">
+              <div class="signle-icon">
+                <i class="icofont icofont-cop"></i>
+              </div>
+              <h3>Emergency Help</h3>
+              <p>
+                We quickly respond to changing resource requirements and employ
+                state-of-the-art systems and technologies so we can easily adapt to any
+                security situation.
+              </p>
+            </div>
+            <!-- End Single features -->
+          </div>
+          <div class="col-lg-4 col-12">
+            <!-- Start Single features -->
+            <div class="single-features">
+              <div class="signle-icon">
+                <i class="icofont icofont-police-car-alt-1"></i>
+              </div>
+              <h3>Enriched Cop Cars</h3>
+              <p>
+                We quickly respond to changing resource requirements and employ
+                state-of-the-art systems and technologies so we can easily adapt to any
+                security situation.
+              </p>
+            </div>
+            <!-- End Single features -->
+          </div>
+          <div class="col-lg-4 col-12">
+            <!-- Start Single features -->
+            <div class="single-features last">
+              <div class="signle-icon">
+                <i class="icofont icofont-handcuff"></i>
+              </div>
+              <h3>Safety</h3>
+              <p>
+                We quickly respond to changing resource requirements and employ
+                state-of-the-art systems and technologies so we can easily adapt to any
+                security situation.
+              </p>
+            </div>
+            <!-- End Single features -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Feautes -->
+
+    <!-- Start Fun-facts -->
+    <div id="fun-facts" class="fun-facts section overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-police-car-alt-1"></i>
+              <div class="content">
+                <span class="counter">3468</span>
+                <p>Cop cars</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-cop"></i>
+              <div class="content">
+                <span class="counter">557</span>
+                <p>Specialist Agents</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont-simple-smile"></i>
+              <div class="content">
+                <span class="counter">4379</span>
+                <p>Happy Client</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Fun -->
+            <div class="single-fun">
+              <i class="icofont icofont-table"></i>
+              <div class="content">
+                <span class="counter">32</span>
+                <p>{{ $t("Years of Experience") }}</p>
+              </div>
+            </div>
+            <!-- End Single Fun -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Fun-facts -->
+
+    <!-- Start Why choose -->
+    <section class="why-choose section">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Offer Different Services To Improve Your Safety</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                We quickly respond to changing resource requirements and employ
+                state-of-the-art systems and technologies so we can easily adapt to any
+                security situation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Left -->
+            <div class="choose-left">
+              <h3>{{ $t("Who We Are") }}</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra
+                antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet
+                quam pharetra commodo.
+              </p>
+              <p>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list">
+                    <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh.</li>
+                    <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
+                    <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list">
+                    <li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh.</li>
+                    <li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
+                    <li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End Choose Left -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Choose Rights -->
+            <div class="choose-right">
+              <div class="video-image">
+                <!-- Video Animation -->
+                <div class="promo-video">
+                  <div class="waves-block">
+                    <div class="waves wave-1"></div>
+                    <div class="waves wave-2"></div>
+                    <div class="waves wave-3"></div>
+                  </div>
+                </div>
+                <!--/ End Video Animation -->
+                <a
+                  href="https://www.youtube.com/watch?v=RFVXy6CRVR4"
+                  class="video video-popup mfp-iframe"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End Choose Rights -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End Why choose -->
 
 
-    <app-textlockup />
+
+
+
     <app-sales-boxes />
-    <app-textlockup>
-      <template v-slot:img>
-        <img src="/bag.jpg" alt="bag" />
-      </template>
-      <template v-slot:new>50%</template>
-      <template v-slot:sale>{{ $t("Storewide Sale") }}</template>
-      <template v-slot:collection>{{ $t("Summer") }}</template>
-      <template v-slot:details>{{ $t("All accessories") }}</template>
-    </app-textlockup>
+ 
     <app-featured-products />
+
+
+
+
+
+
+
+
+    <!-- Start service -->
+    <section class="services section">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Offer Different Services To Improve Your Health</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
+                pretiumts
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont icofont-cop"></i>
+              <h4><a href="service-details.html">Ready Agent</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont-investigator"></i>
+              <h4><a href="service-details.html">Investigator</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont-police-car-alt-1"></i>
+              <h4><a href="service-details.html">Patriot</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont-cc-camera"></i>
+              <h4><a href="service-details.html">Secure your erea</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont-ssl-security"></i>
+              <h4><a href="service-details.html">Informations protection</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Start Single Service -->
+            <div class="single-service">
+              <i class="icofont icofont-viber"></i>
+              <h4><a href="service-details.html">Ready for your call</a></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
+                dictum eros ut imperdiet.
+              </p>
+            </div>
+            <!-- End Single Service -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ End service -->
+
+    <!-- Pricing Table -->
+    <section class="pricing-table section">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Provide You The Best Security In Resonable Price</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
+                pretiumts
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <!-- Single Table -->
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="single-table">
+              <!-- Table Head -->
+              <div class="table-head">
+                <div class="icon">
+                  <i class="icofont icofont-cc-camera"></i>
+                </div>
+                <h4 class="title">Security Cameras & Surveillance Systems</h4>
+                <div class="price">
+                  <p class="amount">$xxxx<span>/ Per yyy</span></p>
+                </div>
+              </div>
+              <!-- Table List -->
+              <ul class="table-list">
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li class="cross">
+                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
+                </li>
+                <li class="cross">
+                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
+                </li>
+                <li class="cross">
+                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
+                </li>
+              </ul>
+              <div class="table-bottom">
+                <a class="btn" href="#">Book Now</a>
+              </div>
+              <!-- Table Bottom -->
+            </div>
+          </div>
+          <!-- End Single Table-->
+          <!-- Single Table -->
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="single-table">
+              <!-- Table Head -->
+              <div class="table-head">
+                <div class="icon">
+                  <i class="icofont icofont-ssl-security"></i>
+                </div>
+                <h4 class="title">Information Protection</h4>
+                <div class="price">
+                  <p class="amount">$xxx<span>/ Per xxx</span></p>
+                </div>
+              </div>
+              <!-- Table List -->
+              <ul class="table-list">
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li class="cross">
+                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
+                </li>
+                <li class="cross">
+                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
+                </li>
+              </ul>
+              <div class="table-bottom">
+                <a class="btn" href="#">Book Now</a>
+              </div>
+              <!-- Table Bottom -->
+            </div>
+          </div>
+          <!-- End Single Table-->
+          <!-- Single Table -->
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="single-table">
+              <!-- Table Head -->
+              <div class="table-head">
+                <div class="icon">
+                  <i class="icofont icofont-police-car-alt-1"></i>
+                </div>
+                <h4 class="title">Patriot</h4>
+                <div class="price">
+                  <p class="amount">$xx<span>/ Per yyy</span></p>
+                </div>
+              </div>
+              <!-- Table List -->
+              <ul class="table-list">
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
+              </ul>
+              <div class="table-bottom">
+                <a class="btn" href="#">Book Now</a>
+              </div>
+              <!-- Table Bottom -->
+            </div>
+          </div>
+          <!-- End Single Table-->
+        </div>
+      </div>
+    </section>
+    <!--/ End Pricing Table -->
+
+    <!-- Start Blog Area -->
+    <section class="blog section" id="blog">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Keep up with Our Most Recent SecurePlus News.</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
+                pretiumts
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Single Blog -->
+            <div class="single-news">
+              <div class="news-head">
+                <img src="img/blog1.jpg" alt="#" />
+              </div>
+              <div class="news-body">
+                <div class="news-content">
+                  <div class="date">22 Aug, 2020</div>
+                  <h2>
+                    <a href="blog-single.html">We have annnocuced our new product.</a>
+                  </h2>
+                  <p class="text">
+                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt sed do incididunt sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Blog -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Single Blog -->
+            <div class="single-news">
+              <div class="news-head">
+                <img src="img/blog2.jpg" alt="#" />
+              </div>
+              <div class="news-body">
+                <div class="news-content">
+                  <div class="date">15 Jul, 2020</div>
+                  <h2>
+                    <a href="blog-single.html"
+                      >Top five way for solving security problems.</a
+                    >
+                  </h2>
+                  <p class="text">
+                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt sed do incididunt sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Blog -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Single Blog -->
+            <div class="single-news">
+              <div class="news-head">
+                <img src="img/blog3.jpg" alt="#" />
+              </div>
+              <div class="news-body">
+                <div class="news-content">
+                  <div class="date">05 Jan, 2020</div>
+                  <h2>
+                    <a href="blog-single.html">We provide highly business soliutions.</a>
+                  </h2>
+                  <p class="text">
+                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt sed do incididunt sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Blog -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Area -->
+
+    <!-- Start clients -->
+    <div class="clients overlay">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12 col-md-12 col-12">
+            <div class="owl-carousel clients-slider">
+              <div class="single-clients">
+                <img src="img/client1.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client2.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client3.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client4.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client5.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client1.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client2.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client3.png" alt="#" />
+              </div>
+              <div class="single-clients">
+                <img src="img/client4.png" alt="#" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Ens clients -->
+
+    <!-- Start Appointment -->
+    <section class="appointment">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>We Are Always Ready to Help You. Book An Appointment</h2>
+              <img src="img/section-img.png" alt="#" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
+                pretiumts
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rowpub">
+          <div class="col-lg-6 col-md-12 col-12">
+            <form class="form" action="#">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="name" type="text" placeholder="Name" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="email" type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input name="phone" type="text" placeholder="Phone" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <div class="nice-select form-control wide" tabindex="0">
+                      <span class="current">Department</span>
+                      <ul class="list">
+                        <li data-value="1" class="option selected">PO7</li>
+                        <li data-value="2" class="option">Gurda</li>
+                        <li data-value="3" class="option">Secure</li>
+                        <li data-value="4" class="option">ss</li>
+                        <li data-value="5" class="option">sdh</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <div class="nice-select form-control wide" tabindex="0">
+                      <span class="current">Agent</span>
+                      <ul class="list">
+                        <li data-value="1" class="option selected">Agent .A</li>
+                        <li data-value="2" class="option">Agent .B</li>
+                        <li data-value="3" class="option">Agent .C</li>
+                        <li data-value="4" class="option">Agent .D</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-group">
+                    <input type="text" placeholder="Date" id="datepicker" />
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      placeholder="Write Your Message Here....."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="rowpub">
+                <div class="col-lg-5 col-md-4 col-12">
+                  <div class="form-group">
+                    <div class="button">
+                      <button type="submit" class="btn">Book An Appointment</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-8 col-12">
+                  <p>( We will be confirm by an Text Message )</p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="appointment-image">
+              <img src="img/contact-img.png" alt="#" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Appointment -->
+
+    <!-- Start Newsletter Area -->
+    <section class="newsletter section">
+      <div class="container">
+        <div class="rowpub">
+          <div class="col-lg-6 col-12">
+            <!-- Start Newsletter Form -->
+            <div class="subscribe-text">
+              <h6>Sign up for newsletter</h6>
+              <p class="">
+                Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br />
+                homero alterum.
+              </p>
+            </div>
+            <!-- End Newsletter Form -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <!-- Start Newsletter Form -->
+            <div class="subscribe-form">
+              <form
+                action="mail/mail.php"
+                method="get"
+                target="_blank"
+                class="newsletter-inner"
+              >
+                <input
+                  name="EMAIL"
+                  placeholder="Your email address"
+                  class="common-input"
+                  onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Your email address'"
+                  required=""
+                  type="email"
+                />
+                <button class="btn">Subscribe</button>
+              </form>
+            </div>
+            <!-- End Newsletter Form -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /End Newsletter Area -->
+
+    <!-- Footer Area -->
+    <footer id="footer" class="footer">
+      <!-- Footer Top -->
+      <div class="footer-top">
+        <div class="container">
+          <div class="rowpub">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>About Us</h2>
+                <p>
+                  Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor
+                  incididunt ut labore dolore magna.
+                </p>
+                <!-- Social -->
+                <ul class="social">
+                  <li>
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-vimeo"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-pinterest"></i></a>
+                  </li>
+                </ul>
+                <!-- End Social -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer f-link">
+                <h2>Quick Links</h2>
+                <div class="rowpub">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Our
+                          Cases</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Other
+                          Links</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Consuling</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i
+                          >Testimonials</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-caret-right" aria-hidden="true"></i>Contact
+                          Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>Open Hours</h2>
+                <p>
+                  Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor
+                  incididunt.
+                </p>
+                <ul class="time-sidual">
+                  <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
+                  <li class="day">Saturday <span>9.00-18.30</span></li>
+                  <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-footer">
+                <h2>Newsletter</h2>
+                <p>
+                  subscribe to our newsletter to get allour news in your inbox.. Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit,
+                </p>
+                <form
+                  action="mail/mail.php"
+                  method="get"
+                  target="_blank"
+                  class="newsletter-inner"
+                >
+                  <input
+                    name="email"
+                    placeholder="Email Address"
+                    class="common-input"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Your email address'"
+                    required=""
+                    type="email"
+                  />
+                  <button class="button">
+                    <i class="icofont icofont-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Footer Top -->
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="rowpub">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="copyright-content">
+                <p>
+                  © Copyright 2021 | All Rights Reserved by
+                  <a href="https://www.wpthemesgrid.com" target="_blank">SecurePlus</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ End Copyright -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <div class="owl-controls">
+      <div class="owl-nav">
+        <div class="owl-prev" style="">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </div>
+        <div class="owl-next" style="">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="owl-dots" style="display: none"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -443,6 +1396,29 @@ Version:	1.1
 </script>
 
 <style scoped lang="scss">
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 1%!important;
+    margin-left: 28%!important;
+}
+.rowpub {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-top: -5%!important;
+    margin-left: -8%!important;
+}
+div.schedule-inner{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 1%!important;
+    margin-left: -49.2%!important;
+}
+
 .slider .owl-carousel .owl-nav div {
   height: 50px;
   width: 50px;

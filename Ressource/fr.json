@@ -357,6 +357,9 @@
   "eventOrder":"Order",
   "eventnormal":"Normal",
   "eventname":"Nom de l'événement",
-  "eventtask":"Tâche"
+  "eventtask":"Tâche",
+  "Years of Experience":"des années d'expérience",
+  "Who We Are":"Qui sommes-nous",
+  "Contact Now":"Contacter maintenant"
 
 }
