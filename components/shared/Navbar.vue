@@ -1,5 +1,5 @@
 <template>
-  <header  class="navbar is-fixed-top is-transparent is-spaced" >
+  <header  class="navbar is-fixed-top is-transparent is-spaced" :style="{ backgroundImage: 'url(img/arts/sliders/header.jpeg)' }">
 
     <div class="container">
       <div class="navbar-brand is-family-secondary">
@@ -105,6 +105,22 @@ export default {
 
 <style lang="scss" scoped>
 
+body, button, input, select, optgroup, textarea *{
+    color: #fbfdfd !important;
+}
+
+*,
+::before,
+::after {
+  background-repeat: repeat !important;
+  /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
+  box-sizing: inherit;
+        border: 2px solid transparent;
+      box-shadow: none;
+      color:#fff;
+}
+
+
 a, a:active, a:visited {
     color: #f4f3f9 !important;
     text-decoration: none;
@@ -130,7 +146,16 @@ div.container {
      margin-right: 8% !important;  
 }
 .twelve h1 {
-  font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:13px;
+  font-size:26px; 
+  font-weight:700;  
+  letter-spacing:1px; 
+  text-transform:uppercase; 
+  width:160px; 
+  text-align:center; 
+  margin:auto; 
+  white-space:nowrap; 
+  padding-bottom:13px;
+  color:#fff;
 }
 .twelve h1:before {
     background-color: #c50000;
@@ -228,7 +253,7 @@ div.container {
       margin-left:2%;
     }
     .container{
-          background-color: #021a2c;
+         // background-color: #021a2c;
     }
     .is-size-4 {
     font-size: 0.8rem !important;

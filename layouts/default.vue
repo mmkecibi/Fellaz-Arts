@@ -46,17 +46,8 @@ body {
   margin: 0;
 }
 
-main {
-  padding: 0;
-  width: 95vw;
-  margin-left: 2vw;
-}
 
 @media screen and (min-width: 1000px) {
-  main {
-    padding: 40px;
-    width: 80vw;
-    margin-left: 9.5vw;
-  }
+
 }
 </style>

@@ -715,7 +715,7 @@ section {
 	text-align: left;
 	z-index:3;
 	border-radius:5px;
-	background:#38308b;
+	background:#2f2d4a;
 	 -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -914,6 +914,7 @@ section {
 	padding:120px 0;
 }
 .fun-facts{
+
 	background:url('img/fun-bg.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -3977,7 +3978,7 @@ section {
 	position:relative;
 }
 .footer .footer-top{
-	padding:100px 0px;
+	padding:100px 50px;
 	position:relative;
 	background:#38308b;
 }

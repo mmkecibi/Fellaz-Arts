@@ -11,7 +11,7 @@
       <app-cart-shipping />
     </section>
     <section v-else-if="cartUIStatus === 'totalbyprovince'" >
-      <h1 class="center">{{ $t("Total") }}</h1>
+      <h1 class="center">{{ $t("Summary") }}</h1>
       <app-total-cart />
     </section>
     <section v-else-if="cartUIStatus === 'payementtype'" class="loader">

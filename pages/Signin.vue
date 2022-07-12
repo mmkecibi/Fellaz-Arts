@@ -1,6 +1,6 @@
 <template>
-  <div class="signin container">
-    <span class="title">{{ $t("Login") }}</span>
+  <div class="signin container"  :style="  { backgroundImage: 'url(img/arts/sliders/header.jpeg)' }">
+    
     <form @submit="signin">
       <div class="form-group">
               <input
@@ -47,14 +47,14 @@
               >
                 {{ $t("Login") }}
               </button>
-              <label>
+              <label class="rememberme">
                 <input type="checkbox" checked="checked" name="remember" />
                 {{ $t("Remember me") }}
               </label>
               
   </form>
   <br/>
-  {{ $t("Don't have an account?") }}&nbsp;&nbsp;<nuxt-link :to="localePath('/Signup')">{{ $t("Signup Here") }} </nuxt-link>
+ <span class="spansignup">{{ $t("Don't have an account?") }}&nbsp;&nbsp;<nuxt-link :to="localePath('/Signup')">{{ $t("Signup Here") }} </nuxt-link></span> 
   </div>
 </template>
 
@@ -109,6 +109,36 @@ export default {
 </script>
 
 <style scoped>
+
+form {
+    max-width: 800px;
+    width: 78%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+
+.rememberme {
+    width: 80%;
+    margin-left: 5%!important;
+    margin-bottom: 15%!important;
+    font-size: 18px;
+    color: rgb(146, 152, 146)!important;
+}
+.spansignup {
+    width: 80%;
+    margin-left: 5%!important;
+    margin-bottom: 15%!important;
+    font-size: 18px;
+    color: rgb(146, 152, 146)!important;
+}
+span.title {
+    width: 80%;
+    margin-left: 5%!important;
+    margin-bottom: 15%!important;
+    font-size: 8px;
+    color: rgb(234 237 244)!important;
+}
+
 .signin h2{
     text-align : center;
     font-size : 60px;
@@ -184,11 +214,14 @@ img.avatar {
 
 .container {
   padding: 16px;
+  margin-top: 10%;
 }
 .container {
-    max-width: 40% !important;
+    max-width: 31% !important;
     margin-left: 35% ;
     background-color: #e8e8fd;
+
+  border: 3px solid rgb(40, 58, 22);
 }
 span.psw {
   float: right;

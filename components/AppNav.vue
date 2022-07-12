@@ -1,9 +1,10 @@
 <template> 
-    <header class="header">
+    <header class="header" :style="{ backgroundImage: 'url(img/arts/sliders/header2.jpeg)' }">
 
     <nav>
       <!-- Header Inner -->
-      <div class="header-inner">
+      <!-- div class="header-inner" :style="{ backgroundImage: 'url(img/arts/sliders/header3.jpeg)' }" -->
+            <div class="header-inner" >
         <div class="">
           <div class="inner">
             <div class="topnav" id="myTopnav">
@@ -162,17 +163,36 @@ this.switchLocalePath(code)
 
 <style lang="scss" scoped>
 
+.header .header-inner {
+    background: rgb(56 58 83 / 90%);
+    z-index: 999;
+    width: 100%;
+}
+
+
+*,
+::before,
+::after {
+  background-repeat: repeat !important;
+  /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
+  box-sizing: inherit;
+  border: 2px solid transparent;
+  box-shadow: none;
+  color:#fff;
+}
+
 header {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 40px 40px 0;
+  padding: 56px 40px 0;
+  background-color: #38308b;
 }
 
 nav {
   display: flex;
-  width: 80vw;
+  width: 100%;
   margin-top: 30px;
   justify-content: center;
   align-items: center;
@@ -499,7 +519,8 @@ $light-text: #abb0be;
 
 .button.is-danger.is-medium.is-inverted.is-outlined.profilbtn{
   width:100%;
-}
+  background-color: #626a98;
+  }
 
 
   .button.is-danger.is-inverted.is-outlined {
@@ -1004,7 +1025,7 @@ $light-text: #abb0be;
 
 .topnav {
   overflow: hidden;
-  background-color: #ffffff;
+  //background-color: #ffffff;
   margin-right: 5px;
 }
 
@@ -1015,7 +1036,7 @@ $light-text: #abb0be;
 }
 
 .topnav a:hover {
-  background-color: #ffffff;
+ // background-color: #ffffff;
   color: black;
 }
 
@@ -1028,12 +1049,13 @@ $light-text: #abb0be;
   display: none;
 }
 .menu-text {
-  font-size: 15px;
+  font-size: 20px;
   margin-left: 5px;
-  color: #4e28d9;
+  color: rgb(233, 228, 241);
   transition: all 0.4s ease;
   background: none;
   padding: 4px 10px;
+  font-weight: 800;
 }
 
 .theme--light.v-btn {

@@ -20,7 +20,7 @@
   <div class="hero-slider  " >
 
 
-        <div class="single-slider"     :style="{ backgroundImage: 'url(img/sliders/slider1.jpg)' }">
+        <div class="single-slider"     :style="{ backgroundImage: 'url(img/arts/sliders/slider1.jpeg)' }">
 
           <div class="container">
             <div class="row">
@@ -46,7 +46,7 @@
         </div>
         <!-- End Single Slider -->
 
-        <div class="single-slider"     :style="{ backgroundImage: 'url(img/sliders/slider2.jpg)' }">
+        <div class="single-slider"     :style="{ backgroundImage: 'url(img/arts/sliders/slider2.jpeg)' }">
 
           <div class="container">
             <div class="row">
@@ -72,7 +72,35 @@
         </div>
         <!-- End Single Slider -->
 
-        <div class="single-slider"     :style="{ backgroundImage: 'url(img/sliders/slider3.jpg)' }">
+        <div class="single-slider"     :style="{ backgroundImage: 'url(img/arts/sliders/slider3.jpeg)' }">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="text">
+                  <h1>
+                    {{ $t("We Provide") }} <span>{{ $t("Security") }}</span> {{ $t("Services That You Can") }}
+                    <span>{{ $t("Trust") }}!</span>
+                  </h1>
+                  <p>
+                  vdsdfvsdfvsdfvda advcdavda adcvdav
+                  </p>
+                  <div class="button">
+                    <nuxt-link to="/search/agent" class="btn">
+                      <i class="fa fa-search  editicon"></i> {{ $t("Find An Agent") }}
+                    </nuxt-link>
+                    <a href="#" class="btn primary">{{ $t("About Us") }}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Single Slider -->
+
+                <!-- End Single Slider -->
+
+        <div class="single-slider"     :style="{ backgroundImage: 'url(img/arts/sliders/slider4.jpeg)' }">
 
           <div class="container">
             <div class="row">
@@ -113,18 +141,19 @@
               <div class="single-schedule first">
                 <div class="inner">
                   <div class="icon">
-                    <i class="icofont icofont-cop"></i>
+                    <i class="icofont icofont-building"></i>
                   </div>
                   <div class="single-content">
-                    <span>Lorem Amet</span>
-                    <h4>Emergency Cases</h4>
+                    <!-- span>Arts</!-->
+                    <h4>Build and Buy!</h4>
                     <p>
-                      We quickly respond to changing resource requirements and employ
-                      state-of-the-art systems and technologies so we can easily adapt to
-                      any security situation.
+                        Come on in and build to your heart's desire with a selection of our excellent quality.
+                    </p>
+                    <p>
+                    The average cost to build a brick or stone wall is $5,016, though a typical range is between $2,236 and $8,068. These walls have several uses inside and outside of your home. But before choosing which material you’d like, let’s look at the costs and factors outlined in this guide. 
                     </p>
 
-                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                    <!-- a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></!-->
                   </div>
                 </div>
               </div>
@@ -137,15 +166,45 @@
                     <i class="icofont-prescription"></i>
                   </div>
                   <div class="single-content">
-                    <span>Fusce Porttitor</span>
-                    <h4>Agents Timetable</h4>
+                    <!-- span>Fusce Porttitor</!-->
+                    <h4>Brick or Stone Wall Fence Cost per Square Foot</h4>
                     <p>
-                      We quickly respond to changing resource requirements and employ
-                      state-of-the-art systems and technologies so we can easily adapt to
-                      any security situation.
+                      Brick walls cost $10 to $45 per square foot based on thickness and type, while stone walls typically cost $25 to $80 per square foot depending on their thickness and style. Cinder block walls cost $9 to $12 per square foot, while the block cost per linear foot for traditional blocks is $6 to $8. 
                     </p>
 
-                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                    <h4>Brick Project Costs</h4>
+
+                    <p>
+                    <table>
+  <tr>
+  <th>Material</th>
+  <th>Per Square Foot</th>
+  <th>Per Square Meter</th>
+  </tr>
+  <tr>
+  <td>Brick</td>
+  <td>$27–$45</td>
+  <td>$290–$485</td>
+  </tr>
+  <tr>
+  <td>Brick Veneer</td>
+  <td>$10–$30</td>
+  <td>$108–$325</td>
+  </tr>
+  <tr>
+  <td>Mini Brick Veneer Strips</td>
+  <td>$5–$15</td>
+  <td>$55–$160</td>
+  </tr>
+  <tr>
+  <td>Hollow Brick</td>
+  <td>$25–$45</td>
+  <td>$270–$485</td>
+  </tr>
+</table>
+                    </p>
+
+                    <!-- a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></!-->
                   </div>
                 </div>
               </div>
@@ -158,16 +217,16 @@
                     <i class="icofont-ui-clock"></i>
                   </div>
                   <div class="single-content">
-                    <span>Donec luctus</span>
-                    <h4>Opening Hours</h4>
+                    <!-- span>Donec luctus</!-->
+                    <h4>Brick and Stone Installation Cost Factors </h4>
                     <ul class="time-sidual">
-                      <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-                      <li class="day">Saturday <span>9.00-18.30</span></li>
-                      <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-                      <li class="day">Saturday <span>9.00-18.30</span></li>
-                      <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                      <li class="day"><i class="service-title">Location </i><span>The location where you want your brick or stone wall installed will play a role in the project’s final price. If your land is uneven, difficult to navigate, or more complex to work with than most properties, you’ll pay more in labor fees. </span></li>
+                      <li class="day"><i class="service-title">Building Permits </i><span>You’ll need a permit to build a brick or stone wall on your property. But the price will depend on its location, type, and size. On average, building permits cost $100 to $500. </span></li>
+                      <li class="day"><i class="service-title">Land Survey</i><span>When building a wall around your property line, you need to know your land’s exact layout to avoid legal or neighborly trouble. Most homeowners spend $350 to $700 on the cost of land surveyor fees. </span></li>
+                      <li class="day"><i class="service-title">Drainage Solution</i>  <span>Another factor that will impact your project’s cost is a drainage solution. Your brick or stone wall needs proper drainage to avoid erosions, flooding, or soil-related issues. Drainage solutions cost $2,000 to $5,800 to install.  </span></li>
+                      <li class="day"><i class="service-title">Footing and Foundation</i> <span>The actual price you can expect depends on the size and weight of your wall. On average, though, concrete footers can cost $15 to $55 per linear foot. But to ensure your wall’s structural integrity, you may need to hire an engineer. Structural engineer’s rates average $500. To avoid your wall from collapsing under its weight, you’ll need to install a foundation or concrete footer.   </span></li>
                     </ul>
-                    <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                    <!-- a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></!-->
                   </div>
                 </div>
               </div>
@@ -189,7 +248,7 @@
               <p>
                 We quickly respond to changing resource requirements and employ
                 state-of-the-art systems and technologies so we can easily adapt to any
-                security situation.
+                 situation.
               </p>
             </div>
           </div>
@@ -199,13 +258,11 @@
             <!-- Start Single features -->
             <div class="single-features">
               <div class="signle-icon">
-                <i class="icofont icofont-cop"></i>
+                <i class="icofont-handshake-deal"></i>
               </div>
-              <h3>Emergency Help</h3>
+              <h3>Hand-check</h3>
               <p>
-                We quickly respond to changing resource requirements and employ
-                state-of-the-art systems and technologies so we can easily adapt to any
-                security situation.
+                Homeowners use HomeAdvisor to find pros for home projects..
               </p>
             </div>
             <!-- End Single features -->
@@ -214,13 +271,11 @@
             <!-- Start Single features -->
             <div class="single-features">
               <div class="signle-icon">
-                <i class="icofont icofont-police-car-alt-1"></i>
+                <i class="icofont-notebook"></i>
               </div>
-              <h3>Enriched Cop Cars</h3>
+              <h3>Project</h3>
               <p>
-                We quickly respond to changing resource requirements and employ
-                state-of-the-art systems and technologies so we can easily adapt to any
-                security situation.
+                When their projects are done, they fill out a short cost survey.
               </p>
             </div>
             <!-- End Single features -->
@@ -229,13 +284,11 @@
             <!-- Start Single features -->
             <div class="single-features last">
               <div class="signle-icon">
-                <i class="icofont icofont-handcuff"></i>
+                <i class="icofont-money-bag"></i>
               </div>
-              <h3>Safety</h3>
+              <h3>Costs</h3>
               <p>
-                We quickly respond to changing resource requirements and employ
-                state-of-the-art systems and technologies so we can easily adapt to any
-                security situation.
+                We compile the data and report costs back to you.
               </p>
             </div>
             <!-- End Single features -->
@@ -248,14 +301,14 @@
     <!-- Start Fun-facts -->
     <div id="fun-facts" class="fun-facts section overlay">
       <div class="container">
-        <div class="row">
+        <div class="rowexperience">
           <div class="col-lg-3 col-md-6 col-12">
             <!-- Start Single Fun -->
             <div class="single-fun">
-              <i class="icofont icofont-police-car-alt-1"></i>
+              <i class="icofont-building-alt"></i>
               <div class="content">
                 <span class="counter">3468</span>
-                <p>Cop cars</p>
+                <p>Branches</p>
               </div>
             </div>
             <!-- End Single Fun -->
@@ -263,10 +316,10 @@
           <div class="col-lg-3 col-md-6 col-12">
             <!-- Start Single Fun -->
             <div class="single-fun">
-              <i class="icofont icofont-cop"></i>
+              <i class="icofont-worker"></i>
               <div class="content">
                 <span class="counter">557</span>
-                <p>Specialist Agents</p>
+                <p>Specialist Workers</p>
               </div>
             </div>
             <!-- End Single Fun -->
@@ -306,11 +359,6 @@
             <div class="section-title">
               <h2>We Offer Different Services To Improve Your Safety</h2>
               <img src="img/section-img.png" alt="#" />
-              <p>
-                We quickly respond to changing resource requirements and employ
-                state-of-the-art systems and technologies so we can easily adapt to any
-                security situation.
-              </p>
             </div>
           </div>
         </div>
@@ -1396,20 +1444,30 @@ Version:	1.1
 </script>
 
 <style scoped lang="scss">
-
+.service-title{
+  font-size: 18px;
+  font-weight: 800;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
-    margin: 1%!important;
-    margin-left: 28%!important;
+    margin-top:-5%!important;
+    margin-left: 31.5%!important;
+}
+.rowexperience {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-top:-5%!important;
+   /* margin-left: 31.5%!important;*/
 }
 .rowpub {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
     margin-top: -5%!important;
-    margin-left: -8%!important;
+
 }
 div.schedule-inner{
     display: flex;
@@ -3267,4 +3325,18 @@ Version:	1.1
   }
 }
 /*************** */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #585b5b;
+}
 </style>

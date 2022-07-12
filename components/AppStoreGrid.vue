@@ -211,6 +211,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.storegrid{
+  padding-top: 50px;
+}
 .content {
   height: 100%;
   width: 100%;

@@ -10,7 +10,7 @@
     </div>
     <div class="TotalByPtotalbyprovincerovince">
       <h2 :class="{ active: cartUIStatus === 'totalbyprovince' && cartCount > 0 }">03</h2>
-      <h4 class="steptitle">{{$t("Total")}}</h4>
+      <h4 class="steptitle">{{$t("Summary")}}</h4>
     </div>
     <div class="payementtype  center">
       <h2 :class="{ active: cartUIStatus === 'payementtype' && cartCount > 0 }">04</h2>

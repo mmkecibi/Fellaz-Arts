@@ -2,9 +2,9 @@
 const env = {
   PORT: process.env.PORT || 8080,
   DATABASE_NAME: process.env.DATABASE_NAME || 'ecombusiness',
-  DATABASE_HOST: process.env.DATABASE_HOST || '35.238.44.21',
-  DATABASE_USERNAME: process.env.DATABASE_USERNAME || 'mkecibi',
-  DATABASE_PASSWORD: process.env.DATABASE_PASSWORD || 'Canada2058!!!',
+  DATABASE_HOST: process.env.DATABASE_HOST || 'localhost',//'35.238.44.21',
+  DATABASE_USERNAME: process.env.DATABASE_USERNAME || 'root',//'mkecibi',
+  DATABASE_PASSWORD: process.env.DATABASE_PASSWORD || 'mous2058',//'Canada2058!!!',
   DATABASE_PORT: process.env.DATABASE_PORT || 3600,
   DATABASE_DIALECT: process.env.DATABASE_DIALECT || 'mysql',
   DATABASE_CHARSET: 'utf8',
