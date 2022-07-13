@@ -356,8 +356,8 @@
       <div class="container">
         <div class="rowpub">
           <div class="col-lg-12">
-            <div class="section-title">
-              <h2>We Offer Different Services To Improve Your Safety</h2>
+            <div class="section-title-one">
+              <h2>We Offer Different Services To Improve Your Satisfaction</h2>
               <img src="img/section-img.png" alt="#" />
             </div>
           </div>
@@ -442,13 +442,10 @@
       <div class="container">
         <div class="rowpub">
           <div class="col-lg-12">
-            <div class="section-title">
-              <h2>We Offer Different Services To Improve Your Health</h2>
+            <div class="section-title-two">
+              <h2>Stone Project Costs</h2>
               <img src="img/section-img.png" alt="#" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
-                pretiumts
-              </p>
+
             </div>
           </div>
         </div>
@@ -456,11 +453,10 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont icofont-cop"></i>
-              <h4><a href="service-details.html">Ready Agent</a></h4>
+                            <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">Rock Wall Cost</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+Homeowners typically pay $20 to $30 per square foot to install a rock wall. However, the type of stone you want for your wall will impact the actual price you’ll pay. For a rock wall with natural stone tiles, stone workers charge $25 to $50+ per square foot, while stone veneer averages $10 to $25 per square foot.  
               </p>
             </div>
             <!-- End Single Service -->
@@ -468,11 +464,10 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont-investigator"></i>
-              <h4><a href="service-details.html">Investigator</a></h4>
+                            <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">Fieldstone Fence or Dry Stack Stone Wall Cost</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+Installing a fieldstone fence or dry stack stone wall costs $20 to $60 per square foot; factors such as size and stone type will give you a more accurate estimate. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -480,11 +475,10 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont-police-car-alt-1"></i>
-              <h4><a href="service-details.html">Patriot</a></h4>
+                            <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">DIY Brick & Stone Wall Construction vs. Hire a Pro</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+You can save money on labor costs when building a brick or stone wall, but there isn’t a quick fix for a DIY, and it often leads to removing and replacing the wall. So, this project is better left to the brick and stone wall builders near you.
               </p>
             </div>
             <!-- End Single Service -->
@@ -492,11 +486,10 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont-cc-camera"></i>
-              <h4><a href="service-details.html">Secure your erea</a></h4>
+                           <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">Accent Wall Cost</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+It’ll cost $4,000 to $8,000 to install a stone accent wall in your home. Unless your home can support the weight of real stones, your contractor will use stone veneers. If you do want to use real stone, you’ll need to modify your home to handle the load capacity. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -504,11 +497,10 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont-ssl-security"></i>
-              <h4><a href="service-details.html">Informations protection</a></h4>
+                            <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">Pillars</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+Installing stone pillars will cost $1,300 to $3,000 per pillar and can reach up to $5,000 each for solid natural stone. Factors such as stone and frame type, structural integrity, and project size will impact your final cost. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -516,11 +508,14 @@
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Start Single Service -->
             <div class="single-service">
-              <i class="icofont icofont-viber"></i>
-              <h4><a href="service-details.html">Ready for your call</a></h4>
+                            <i class="icofont-worker"></i>
+              <h4><a href="service-details.html">Labor Costs</a></h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus
-                dictum eros ut imperdiet.
+Masons charge anywhere from $70 to $110 per hour for labor. Carpenters and other general contractors or less experienced masons might charge $30 to $50 per hour. Hourly rates also vary from place to place. Depending on materials, about 60% to 80% of stone wall costs come from labor, especially if you source stones locally.
+
+Natural Stone: $15 to $30+ per square foot in labor.
+
+Stone Veneer: $10 to $15 per square foot in labor.
               </p>
             </div>
             <!-- End Single Service -->
@@ -530,207 +525,9 @@
     </section>
     <!--/ End service -->
 
-    <!-- Pricing Table -->
-    <section class="pricing-table section">
-      <div class="container">
-        <div class="rowpub">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>We Provide You The Best Security In Resonable Price</h2>
-              <img src="img/section-img.png" alt="#" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
-                pretiumts
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="rowpub">
-          <!-- Single Table -->
-          <div class="col-lg-4 col-md-12 col-12">
-            <div class="single-table">
-              <!-- Table Head -->
-              <div class="table-head">
-                <div class="icon">
-                  <i class="icofont icofont-cc-camera"></i>
-                </div>
-                <h4 class="title">Security Cameras & Surveillance Systems</h4>
-                <div class="price">
-                  <p class="amount">$xxxx<span>/ Per yyy</span></p>
-                </div>
-              </div>
-              <!-- Table List -->
-              <ul class="table-list">
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li class="cross">
-                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
-                </li>
-                <li class="cross">
-                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
-                </li>
-                <li class="cross">
-                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
-                </li>
-              </ul>
-              <div class="table-bottom">
-                <a class="btn" href="#">Book Now</a>
-              </div>
-              <!-- Table Bottom -->
-            </div>
-          </div>
-          <!-- End Single Table-->
-          <!-- Single Table -->
-          <div class="col-lg-4 col-md-12 col-12">
-            <div class="single-table">
-              <!-- Table Head -->
-              <div class="table-head">
-                <div class="icon">
-                  <i class="icofont icofont-ssl-security"></i>
-                </div>
-                <h4 class="title">Information Protection</h4>
-                <div class="price">
-                  <p class="amount">$xxx<span>/ Per xxx</span></p>
-                </div>
-              </div>
-              <!-- Table List -->
-              <ul class="table-list">
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li class="cross">
-                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
-                </li>
-                <li class="cross">
-                  <i class="icofont icofont-ui-close"></i>xxxxxx xxxxx xxxxx
-                </li>
-              </ul>
-              <div class="table-bottom">
-                <a class="btn" href="#">Book Now</a>
-              </div>
-              <!-- Table Bottom -->
-            </div>
-          </div>
-          <!-- End Single Table-->
-          <!-- Single Table -->
-          <div class="col-lg-4 col-md-12 col-12">
-            <div class="single-table">
-              <!-- Table Head -->
-              <div class="table-head">
-                <div class="icon">
-                  <i class="icofont icofont-police-car-alt-1"></i>
-                </div>
-                <h4 class="title">Patriot</h4>
-                <div class="price">
-                  <p class="amount">$xx<span>/ Per yyy</span></p>
-                </div>
-              </div>
-              <!-- Table List -->
-              <ul class="table-list">
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-                <li><i class="icofont icofont-ui-check"></i>xxxxxx xxxxx xxxxx</li>
-              </ul>
-              <div class="table-bottom">
-                <a class="btn" href="#">Book Now</a>
-              </div>
-              <!-- Table Bottom -->
-            </div>
-          </div>
-          <!-- End Single Table-->
-        </div>
-      </div>
-    </section>
-    <!--/ End Pricing Table -->
 
-    <!-- Start Blog Area -->
-    <section class="blog section" id="blog">
-      <div class="container">
-        <div class="rowpub">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Keep up with Our Most Recent SecurePlus News.</h2>
-              <img src="img/section-img.png" alt="#" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
-                pretiumts
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="rowpub">
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Single Blog -->
-            <div class="single-news">
-              <div class="news-head">
-                <img src="img/blog1.jpg" alt="#" />
-              </div>
-              <div class="news-body">
-                <div class="news-content">
-                  <div class="date">22 Aug, 2020</div>
-                  <h2>
-                    <a href="blog-single.html">We have annnocuced our new product.</a>
-                  </h2>
-                  <p class="text">
-                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt sed do incididunt sed.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Blog -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Single Blog -->
-            <div class="single-news">
-              <div class="news-head">
-                <img src="img/blog2.jpg" alt="#" />
-              </div>
-              <div class="news-body">
-                <div class="news-content">
-                  <div class="date">15 Jul, 2020</div>
-                  <h2>
-                    <a href="blog-single.html"
-                      >Top five way for solving security problems.</a
-                    >
-                  </h2>
-                  <p class="text">
-                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt sed do incididunt sed.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Blog -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Single Blog -->
-            <div class="single-news">
-              <div class="news-head">
-                <img src="img/blog3.jpg" alt="#" />
-              </div>
-              <div class="news-body">
-                <div class="news-content">
-                  <div class="date">05 Jan, 2020</div>
-                  <h2>
-                    <a href="blog-single.html">We provide highly business soliutions.</a>
-                  </h2>
-                  <p class="text">
-                    Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt sed do incididunt sed.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Blog -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Blog Area -->
 
+ 
     <!-- Start clients -->
     <div class="clients overlay">
       <div class="container">
@@ -779,10 +576,6 @@
             <div class="section-title">
               <h2>We Are Always Ready to Help You. Book An Appointment</h2>
               <img src="img/section-img.png" alt="#" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet.
-                pretiumts
-              </p>
             </div>
           </div>
         </div>
@@ -805,33 +598,7 @@
                     <input name="phone" type="text" placeholder="Phone" />
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-group">
-                    <div class="nice-select form-control wide" tabindex="0">
-                      <span class="current">Department</span>
-                      <ul class="list">
-                        <li data-value="1" class="option selected">PO7</li>
-                        <li data-value="2" class="option">Gurda</li>
-                        <li data-value="3" class="option">Secure</li>
-                        <li data-value="4" class="option">ss</li>
-                        <li data-value="5" class="option">sdh</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="form-group">
-                    <div class="nice-select form-control wide" tabindex="0">
-                      <span class="current">Agent</span>
-                      <ul class="list">
-                        <li data-value="1" class="option selected">Agent .A</li>
-                        <li data-value="2" class="option">Agent .B</li>
-                        <li data-value="3" class="option">Agent .C</li>
-                        <li data-value="4" class="option">Agent .D</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+
                 <div class="col-lg-6 col-md-6 col-12">
                   <div class="form-group">
                     <input type="text" placeholder="Date" id="datepicker" />
@@ -855,7 +622,7 @@
                   </div>
                 </div>
                 <div class="col-lg-7 col-md-8 col-12">
-                  <p>( We will be confirm by an Text Message )</p>
+
                 </div>
               </div>
             </form>
@@ -876,13 +643,13 @@
         <div class="rowpub">
           <div class="col-lg-6 col-12">
             <!-- Start Newsletter Form -->
-            <div class="subscribe-text">
+            <!-- div class="subscribe-text">
               <h6>Sign up for newsletter</h6>
               <p class="">
                 Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br />
                 homero alterum.
               </p>
-            </div>
+            </!-->
             <!-- End Newsletter Form -->
           </div>
           <div class="col-lg-6 col-12">
@@ -1071,7 +838,7 @@
               <div class="copyright-content">
                 <p>
                   © Copyright 2021 | All Rights Reserved by
-                  <a href="https://www.wpthemesgrid.com" target="_blank">SecurePlus</a>
+                  <a href="https://www.wpthemesgrid.com" target="_blank">FELLAZ-ARTS</a>
                 </p>
               </div>
             </div>
@@ -1444,6 +1211,46 @@ Version:	1.1
 </script>
 
 <style scoped lang="scss">
+
+
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #e1e7ed;
+    }
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    position: relative;
+    color: #e9eaf4 !important;
+}
+.section-title-one h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 8%;
+    margin-left: 18%;
+    position: relative;
+    color: #181c46 !important;
+}
+.section-title-two h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 8%;
+    margin-left: 40%;
+    position: relative;
+    color: #181c46 !important;
+        font-size: 32px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    margin-bottom: 8% !important;
+    margin-left: 40% !important;
+}
 .service-title{
   font-size: 18px;
   font-weight: 800;

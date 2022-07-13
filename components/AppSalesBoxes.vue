@@ -47,6 +47,8 @@ export default {
     justify-self: center;
     align-self: center;
     text-align: center;
+    background:#2f2d4a;
+    color:white;
   }
   .box1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -63,6 +65,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin: 0 0 10px 0;
+      color:white;
 }
 
 @media screen and (min-width: 700px) {
