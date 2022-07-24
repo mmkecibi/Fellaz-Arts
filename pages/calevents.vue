@@ -1,6 +1,6 @@
 <template>
   <div class="tab-content" id="main_form">
-      <div class="row">
+      <div class="rowcalevents">
         <div class="col-md-12">
           <form @input="emitFormData" class="course-create-form">
             <div class="">
@@ -120,6 +120,33 @@ this.eventstosend = []
 };
 </script>
 <style scoped>
+
+.rowcalevents {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-left: 18.8%;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .rowcalevents {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-left: 4.1%;
+  }    
+}
+
+@media screen and (max-width: 980px) {
+  .rowcalevents {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-left: -8.1%;
+  }    
+}
 
 aside {
   height: 100%;

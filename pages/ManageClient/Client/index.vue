@@ -259,4 +259,10 @@ export default {
           background-color: #ffff;
           border-color: #28a745;
         }
+  /* .row {
+    display: flex; 
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 28px;
+}*/
 </style>

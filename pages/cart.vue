@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="products-box container">
     <app-cart-steps />
     <hr />
     <section v-if="cartUIStatus === 'idle'">

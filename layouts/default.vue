@@ -1,6 +1,6 @@
 <template>
   <div dir="auto">
-      <navbar />
+    <navbar />
     <app-nav />
     <main>
       <nuxt />

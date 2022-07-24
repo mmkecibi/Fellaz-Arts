@@ -176,32 +176,32 @@
 
                     <p>
                     <table>
-  <tr>
-  <th>Material</th>
-  <th>Per Square Foot</th>
-  <th>Per Square Meter</th>
-  </tr>
-  <tr>
-  <td>Brick</td>
-  <td>$27–$45</td>
-  <td>$290–$485</td>
-  </tr>
-  <tr>
-  <td>Brick Veneer</td>
-  <td>$10–$30</td>
-  <td>$108–$325</td>
-  </tr>
-  <tr>
-  <td>Mini Brick Veneer Strips</td>
-  <td>$5–$15</td>
-  <td>$55–$160</td>
-  </tr>
-  <tr>
-  <td>Hollow Brick</td>
-  <td>$25–$45</td>
-  <td>$270–$485</td>
-  </tr>
-</table>
+                    <tr>
+                    <th>Material</th>
+                    <th>Per Square Foot</th>
+                    <th>Per Square Meter</th>
+                    </tr>
+                    <tr>
+                    <td>Brick</td>
+                    <td>$27–$45</td>
+                    <td>$290–$485</td>
+                    </tr>
+                    <tr>
+                    <td>Brick Veneer</td>
+                    <td>$10–$30</td>
+                    <td>$108–$325</td>
+                    </tr>
+                    <tr>
+                    <td>Mini Brick Veneer Strips</td>
+                    <td>$5–$15</td>
+                    <td>$55–$160</td>
+                    </tr>
+                    <tr>
+                    <td>Hollow Brick</td>
+                    <td>$25–$45</td>
+                    <td>$270–$485</td>
+                    </tr>
+                  </table>
                     </p>
 
                     <!-- a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></!-->
@@ -456,7 +456,7 @@
                             <i class="icofont-worker"></i>
               <h4><a href="service-details.html">Rock Wall Cost</a></h4>
               <p>
-Homeowners typically pay $20 to $30 per square foot to install a rock wall. However, the type of stone you want for your wall will impact the actual price you’ll pay. For a rock wall with natural stone tiles, stone workers charge $25 to $50+ per square foot, while stone veneer averages $10 to $25 per square foot.  
+                Homeowners typically pay $20 to $30 per square foot to install a rock wall. However, the type of stone you want for your wall will impact the actual price you’ll pay. For a rock wall with natural stone tiles, stone workers charge $25 to $50+ per square foot, while stone veneer averages $10 to $25 per square foot.  
               </p>
             </div>
             <!-- End Single Service -->
@@ -467,7 +467,7 @@ Homeowners typically pay $20 to $30 per square foot to install a rock wall. Howe
                             <i class="icofont-worker"></i>
               <h4><a href="service-details.html">Fieldstone Fence or Dry Stack Stone Wall Cost</a></h4>
               <p>
-Installing a fieldstone fence or dry stack stone wall costs $20 to $60 per square foot; factors such as size and stone type will give you a more accurate estimate. 
+                Installing a fieldstone fence or dry stack stone wall costs $20 to $60 per square foot; factors such as size and stone type will give you a more accurate estimate. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -478,7 +478,7 @@ Installing a fieldstone fence or dry stack stone wall costs $20 to $60 per squar
                             <i class="icofont-worker"></i>
               <h4><a href="service-details.html">DIY Brick & Stone Wall Construction vs. Hire a Pro</a></h4>
               <p>
-You can save money on labor costs when building a brick or stone wall, but there isn’t a quick fix for a DIY, and it often leads to removing and replacing the wall. So, this project is better left to the brick and stone wall builders near you.
+              You can save money on labor costs when building a brick or stone wall, but there isn’t a quick fix for a DIY, and it often leads to removing and replacing the wall. So, this project is better left to the brick and stone wall builders near you.
               </p>
             </div>
             <!-- End Single Service -->
@@ -489,7 +489,7 @@ You can save money on labor costs when building a brick or stone wall, but there
                            <i class="icofont-worker"></i>
               <h4><a href="service-details.html">Accent Wall Cost</a></h4>
               <p>
-It’ll cost $4,000 to $8,000 to install a stone accent wall in your home. Unless your home can support the weight of real stones, your contractor will use stone veneers. If you do want to use real stone, you’ll need to modify your home to handle the load capacity. 
+                It’ll cost $4,000 to $8,000 to install a stone accent wall in your home. Unless your home can support the weight of real stones, your contractor will use stone veneers. If you do want to use real stone, you’ll need to modify your home to handle the load capacity. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -500,7 +500,7 @@ It’ll cost $4,000 to $8,000 to install a stone accent wall in your home. Unles
                             <i class="icofont-worker"></i>
               <h4><a href="service-details.html">Pillars</a></h4>
               <p>
-Installing stone pillars will cost $1,300 to $3,000 per pillar and can reach up to $5,000 each for solid natural stone. Factors such as stone and frame type, structural integrity, and project size will impact your final cost. 
+                Installing stone pillars will cost $1,300 to $3,000 per pillar and can reach up to $5,000 each for solid natural stone. Factors such as stone and frame type, structural integrity, and project size will impact your final cost. 
               </p>
             </div>
             <!-- End Single Service -->
@@ -511,11 +511,11 @@ Installing stone pillars will cost $1,300 to $3,000 per pillar and can reach up 
                             <i class="icofont-worker"></i>
               <h4><a href="service-details.html">Labor Costs</a></h4>
               <p>
-Masons charge anywhere from $70 to $110 per hour for labor. Carpenters and other general contractors or less experienced masons might charge $30 to $50 per hour. Hourly rates also vary from place to place. Depending on materials, about 60% to 80% of stone wall costs come from labor, especially if you source stones locally.
+                    Masons charge anywhere from $70 to $110 per hour for labor. Carpenters and other general contractors or less experienced masons might charge $30 to $50 per hour. Hourly rates also vary from place to place. Depending on materials, about 60% to 80% of stone wall costs come from labor, especially if you source stones locally.
 
-Natural Stone: $15 to $30+ per square foot in labor.
+                    Natural Stone: $15 to $30+ per square foot in labor.
 
-Stone Veneer: $10 to $15 per square foot in labor.
+                    Stone Veneer: $10 to $15 per square foot in labor.
               </p>
             </div>
             <!-- End Single Service -->
@@ -573,7 +573,7 @@ Stone Veneer: $10 to $15 per square foot in labor.
       <div class="container">
         <div class="rowpub">
           <div class="col-lg-12">
-            <div class="section-title">
+            <div class="section-title-appointment">
               <h2>We Are Always Ready to Help You. Book An Appointment</h2>
               <img src="img/section-img.png" alt="#" />
             </div>
@@ -862,20 +862,6 @@ Stone Veneer: $10 to $15 per square foot in labor.
     </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
 </template>
 
 <script>
@@ -886,6 +872,7 @@ import AppSalesBoxes from "~/components/AppSalesBoxes.vue";
 import AppFeaturedProducts from "~/components/AppFeaturedProducts.vue";
 import ToolsjqueryMixin from "~/mixins/ToolsjqueryMixin";
 import ToolsmenuNavMixin from "~/mixins/ToolsmenuNavMixin";
+import { mapGetters } from 'vuex'
 export default {
     data() {
     return {
@@ -899,16 +886,22 @@ export default {
     AppFeaturedProducts
   },
 
-
-  methods: {
-
+  computed: {
+    ...mapGetters({ 
+                      cartCount: 'cartstore/cartCount',
+                      user: "auth/authUser",
+                      isAuth: "auth/isAuthenticated",
+                      isAdmin: "auth/isAdmin",
+                      userAuthority: "auth/userAuthority",
+                  }),
   },
-
-  created(){      
-
-  },
-
-  mounted: function () {
+  mounted: async function  () {
+        if(this.user){
+         await  this.$store
+            .dispatch("cartstore/fetchCartByClientId",this.user.id).then((cart)=>{
+                  this.l_cart = [... cart];
+            });
+    }
     /* =====================================
 Template Name: 	Mediplus.
 Author Name: Naimur Rahman
@@ -1224,9 +1217,10 @@ Version:	1.1
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
+    margin-top: 18%;
     margin-bottom: 24px;
     position: relative;
-    color: #e9eaf4 !important;
+    color: #4a4d6e !important ;
 }
 .section-title-one h2 {
     font-size: 32px;
@@ -1250,6 +1244,15 @@ Version:	1.1
     text-transform: capitalize !important;
     margin-bottom: 8% !important;
     margin-left: 40% !important;
+}
+.section-title-appointment h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    margin-left: 22%;
+    position: relative;
+    color: #f3f3f7 !important ;
 }
 .service-title{
   font-size: 18px;

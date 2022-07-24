@@ -720,4 +720,10 @@ export default {
   font-size : 60px;
   margin : 30px 0;
 }
+ /* .row {
+   display: flex; 
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 28px;
+}*/
 </style>

@@ -714,4 +714,20 @@ export default {
   font-size : 60px;
   margin : 30px 0;
 }
+
+/*.row {
+     display: flex; 
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: 28px;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+    color: #fff!important; 
+    background-color: #908f93 !important; 
+    border-color: #737276 !important; 
+
+
+    margin-bottom: 25px;
+}*/
 </style>

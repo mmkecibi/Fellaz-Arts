@@ -1,8 +1,8 @@
 <template>
   <section>
-    <h2>
-      <span class="section-title">{{$t("Featured Products")}}</span>
-    </h2>
+    
+      <span class="section-title"><h2>{{$t("Featured Products")}}</h2></span>
+    
     <div class="featureditems">
       <div class="item" v-for="product in featuredProducts" :key="product.id">
         <img :src="`/products/${product.img}`" />
@@ -45,8 +45,17 @@ section {
     font-weight: 600 !important;
     text-transform: capitalize !important;
     margin-bottom: 8% !important;
-
 }
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    position: relative;
+    color: #4a4d6e !important ;
+}
+
 .featureditems {
   width: 100%;
   margin: 20px 0 70px;

@@ -82,8 +82,9 @@ export default {
   },
   methods: {
     logout() {
-            this.$store.dispatch("auth/logout").then(() => {
-              this.$router.push(localePath('/Signin'));
+            this.$store.dispatch("auth/logout").then(async()  => {
+            //  this.$router.push(localePath('/Signin'));
+             await  window.location.reload();
             });
     },
 
@@ -99,7 +100,10 @@ export default {
       this.lastScrollPosition = currentScrollPosition
       setTimeout(this.closeMenu, 250)
     }
-  }
+  },
+   async mounted()  {
+
+   }
 }
 </script>
 
@@ -134,11 +138,11 @@ a, a:active, a:visited {
   color: white;
   font-size: 10px;
   right: 31%;
-  width: 4%;
+  width: 6%;
   text-align: center;
   height: 38px;
   font-size: 18px;
-  padding: 6px 5px;
+  padding: 2px 5px;
   font-weight: bold;
 }
 div.container {
@@ -240,7 +244,25 @@ div.container {
     border-radius: 50%;
     box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
 }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
+
+.carttotal {
+  position: absolute;
+  border-radius: 1000px;
+  background: #4e28d9;
+  color: white;
+  font-size: 10px;
+  right: 31%;
+  width: 15%;
+  text-align: center;
+  height: 38px;
+  font-size: 18px;
+  padding: 1px 5px;
+  font-weight: bold;
+  right: 50%;
+  top:50%;
+}
+
     .button.is-danger.is-inverted.is-outlined {
         background-color: rgb(17, 16, 16);
         border-color: rgb(17, 16, 16);
